@@ -1,0 +1,2 @@
+loc,length,bug type,approach,reachable,constraint
+14,5,tx.origin,code snippet injection,1,2

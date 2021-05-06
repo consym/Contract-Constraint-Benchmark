@@ -1,0 +1,17 @@
+let:
+- - ["balances[msg.sender]", "totalSupply"]
+  - 3
+- - ["balances[msg.sender]", "10**27"]
+  - 3
+let2:
+- - ["balances[msg.sender]", "balances[address(0)]", "totalSupply"]
+  - 3
+eq:
+- - ["decimals", 18]
+  - 2
+- - ["keccak256(name)", "keccak256(\"ChainLink Token\")"]
+  - 2
+- - ["keccak256(symbol)", "keccak256(\"LINK\")"]
+  - 2
+- - ["totalSupply", "10**27"]
+  - 2

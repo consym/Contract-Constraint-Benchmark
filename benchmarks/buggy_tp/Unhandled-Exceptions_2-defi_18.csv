@@ -1,0 +1,2 @@
+loc,length,bug type,approach,reachable,constraint
+66,8,Unhandled-Exceptions,code snippet injection,1,2

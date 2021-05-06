@@ -1,0 +1,2 @@
+loc,length,bug type,approach,reachable,constraint
+60,2,Unchecked-Send,code snippet injection,1,2

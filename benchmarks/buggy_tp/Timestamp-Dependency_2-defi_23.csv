@@ -1,0 +1,2 @@
+loc,length,bug type,approach,reachable,constraint
+71,4,Timestamp-Dependency,code snippet injection,1,3

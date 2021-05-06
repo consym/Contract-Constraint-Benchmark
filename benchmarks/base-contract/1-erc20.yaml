@@ -1,0 +1,7 @@
+let:
+- - ["_balances[msg.sender]", "_totalSupply"] # constraint delta3
+  - 3
+let2:
+- - ["_balances[msg.sender]", "_balances[address(0)]", "_totalSupply"] # constraint delta3
+  - 3
+eq:

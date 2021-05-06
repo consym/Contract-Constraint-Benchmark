@@ -1,0 +1,16 @@
+let:
+- - ["_balances[msg.sender]", "_totalSupply"]
+  - 3
+let2:
+- - ["_balances[msg.sender]", "_balances[address(0)]", "_totalSupply"]
+  - 3
+eq:
+- - ["_decimals", 18]
+  - 2
+- - ["keccak256(_name)", "keccak256(\"yearn.finance\")"]
+  - 2
+- - ["keccak256(_symbol)", "keccak256(\"YFI\")"]
+  - 2
+enq:
+- - ["governance", address(0xdeadbeef)]
+  - 2

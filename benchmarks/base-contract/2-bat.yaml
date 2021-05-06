@@ -1,0 +1,29 @@
+let:
+- - ["balances[msg.sender]", "totalSupply"]
+  - 3
+- - ["msg.value", "150000000*10**18"]
+  - 1
+- - ["block.number", 386562335]
+  - 1
+let2:
+- - ["balances[msg.sender]", "balances[address(0)]", "totalSupply"]
+  - 3
+- - ["balances[msg.sender]", "balances[address(0)]", "1500 * (10**6) * 10**18"]
+  - 3
+eq:
+- - ["decimals", 18]
+  - 2
+- - ["keccak256(name)", "keccak256(\"Basic Attention Token\")"]
+  - 2
+- - ["keccak256(symbol)", "keccak256(\"BAT\")"]
+  - 2
+- - ["keccak256(version)", "keccak256(\"1.0\")"]
+  - 2
+- - ["batFund", "500 * (10**6) * 10**18"]
+  - 2
+- - ["tokenExchangeRate", 6400]
+  - 2
+- - ["tokenCreationCap", "1500 * (10**6) * 10**18"]
+  - 2
+- - ["tokenCreationMin", "675 * (10**6) * 10**18"]
+  - 2

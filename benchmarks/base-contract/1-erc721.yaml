@@ -1,0 +1,5 @@
+let:
+- - ["_ownedTokensCount[msg.sender]", 1000000000000000000] # constraint delta1 (tx number)
+  - 1
+let2:
+eq:
